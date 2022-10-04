@@ -69,24 +69,44 @@
     </head>
 
     <body class="text-center">
+
         <!-- Flexbox containing the contents of the page itself -->
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <!-- * top row of content -->
+            <header class="masthead mb-auto">
+                <div class="inner">
+                    <nav class="nav nav-masthead justify-content-center">
+                        <a class="nav-link active" href="./index.html">Home</a>
+                    </nav>
+                </div>
+            </header>
             <!-- * main content in center of page -->
-            <div class="container">
+            <main role="main" class="inner cover">
                 <div class="row">
-                  <div class="col-sm">
-                    One of three columns
-                  </div>
-                  <div class="col-sm">
-                    One of three columns
-                  </div>
-                  <div class="col-sm">
-                    One of three columns
+                    <div class="col-sm">
+                      One of three columns
+                    </div>
+                    <div class="col-sm">
+                      One of three columns
+                    </div>
+                    <div class="col-sm">
+                      One of three columns
+                    </div>
                   </div>
                 </div>
-
-              </div>
-              
+            </main>
+            <!-- footer content at bottom -->
+            <footer class="mastfoot mt-auto">
+                <div class="inner">
+                    <p>
+                        Made using
+                        <a href="https://getbootstrap.com/">Bootstrap</a>
+                        , by
+                        <a href="https://twitter.com/mdo">@mdo</a>
+                        .
+                    </p>
+                </div>
+            </footer>
         </div>
 
     </body>
